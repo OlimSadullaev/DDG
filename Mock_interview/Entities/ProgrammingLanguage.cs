@@ -7,7 +7,6 @@
         public string ProgrammingLanguageName { get; set; }
 
         public User UserId { get; set; }
-
-
     }
+
 }
