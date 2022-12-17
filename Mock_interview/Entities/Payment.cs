@@ -2,15 +2,14 @@
 
 namespace Mock_interview.Entities
 {
-    public class Payments
+    public class Payment
     {
         public int PaymentId { get; set; }
 
         public long PaymentNumber { get; set; }
 
-        public int ReceivedId { get; set; }
-
-        public User UserId { get; set; }
+        public int ReceiverId { get; set; }
+        public User Receiver { get; set; }
 
         public bool PaymentStatus { get; set; }
 

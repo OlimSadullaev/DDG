@@ -2,11 +2,12 @@
 {
     public class ProgrammingLanguage
     {
-        public int ProgrammingLanguageId { get; set; }
+        public int LanguageId { get; set; }
 
-        public string ProgrammingLanguageName { get; set; }
+        public string LanguageName { get; set; }
 
-        public User UserId { get; set; }
+        public User User { get; set; }
+        
 
 
     }
