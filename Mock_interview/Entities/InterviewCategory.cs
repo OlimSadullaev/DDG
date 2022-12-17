@@ -2,7 +2,7 @@
 {
     public class InterviewCategory
     {
-        public int CategoryId { get; set; }
+        public int InterviewCategoryId { get; set; }
 
         public string CategoryName { get; set; }
 

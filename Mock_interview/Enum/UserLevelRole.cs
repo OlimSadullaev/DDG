@@ -4,6 +4,6 @@
     {
         Junior,
         Middle,
-        Senior,
+        Senior
     }
 }
