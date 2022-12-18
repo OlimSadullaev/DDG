@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mock_interview.props" />
+</Project>

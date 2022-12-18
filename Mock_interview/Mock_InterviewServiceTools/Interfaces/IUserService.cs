@@ -9,7 +9,7 @@ namespace Mock_interview.Mock_interviewServiceTools
         Task<User> ExistAsync(int id);
         Task<User> GetAsync(int UserId);
         Task<List<User>> GetAllAsync();
-        Task<(bool IsSuccess, Exception Exception, User User)> CreateAsync(User user)
+        Task<(bool IsSuccess, Exception Exception, User User)> CreateAsync(User user);
         Task<(bool IsSuccess, Exception Exception)> UpdateAsync(User user);
         Task<(bool IsSuccess, Exception Exception)> DeletAsync(int id);
     }
