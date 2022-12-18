@@ -8,9 +8,5 @@
         public int AbilityId { get; set; }
         public Ability Ability { get; set;}
         public User User { get; set; }
-
-        public string Projects { get; set; }
-
-        public Ability Ability { get; set; }
     }
 }
